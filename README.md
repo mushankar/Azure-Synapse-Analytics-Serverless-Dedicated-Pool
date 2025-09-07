@@ -7,22 +7,37 @@ It includes **SQL scripts** and **screenshots** that walk through the key concep
 
 ## 📂 Repository Structure
 
-+---Dedicated SQL pool
-|       1_dedicatedpool_setup.sql
-|       2_distributed_tables.sql
-|       3_CTAS_polybase.sql
-|       4_copyTable_polybase.sql
-|       Creating Hash_Replicate_Roundrobin Tables.png
-|       creating table using COPY_INTO command.png
-|       External Table using CTAS.png
-|       
-\---SQL serverless pool
-        1_openrowset.sql
-        2_EXT_table_sample.sql
-        3_CETAS.sql
-        External Table as Parquet.png
-        Openrowset.png
-        revenue_star.csv
+<details>
+<summary>📂 Root</summary>
+
+- 🖼️ Afterdeleting_dedicatedpool - SQLscriptsnotdeleted.png  
+- 🖼️ Creating Credential_DataSource 2.png  
+- 🖼️ Creating MasterKey_Credential_DataSource 1.png  
+</details>
+
+<details>
+<summary>📂 Dedicated SQL pool</summary>
+
+- 📜 1_dedicatedpool_setup.sql  
+- 📜 2_distributed_tables.sql  
+- 📜 3_CTAS_polybase.sql  
+- 📜 4_copyTable_polybase.sql  
+- 🖼️ Creating Hash_Replicate_Roundrobin Tables.png  
+- 🖼️ creating table using COPY_INTO command.png  
+- 🖼️ External Table using CTAS.png  
+</details>
+
+<details>
+<summary>📂 SQL serverless pool</summary>
+
+- 📜 1_openrowset.sql  
+- 📜 2_EXT_table_sample.sql  
+- 📜 3_CETAS.sql  
+- 🖼️ External Table as Parquet.png  
+- 🖼️ Openrowset.png  
+- 📊 revenue_star.csv  
+</details>
+
 
 ---
 
